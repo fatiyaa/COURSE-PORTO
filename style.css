@@ -1,0 +1,157 @@
+body{
+    margin: 50px 100px;
+    background-color: #9dd1ff;
+}
+.up{
+    background-color: #001244;
+    margin: 0;
+}
+.down{
+    background-color: rgb(215, 236, 255);
+    margin: 0;
+}
+
+.navimg{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    
+}
+.SMD{
+    display: flex;
+    margin: 0px 5px;
+    /* margin-bottom: 30px; */
+    justify-content: flex-end;
+}
+.picture img, .picture{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: #d3e2e7; */
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.hamburger{
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+.hamburger img{
+    width: 30px;
+    padding: 10px;
+    align-items: center;
+}
+
+.picture{
+    height: 300px;
+    background-color: #001244;
+    margin: 40px 20px;
+}
+
+.picture:hover{
+    background-color:rgb(215, 236, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(215, 236, 255);
+    height: 40px;
+}
+nav div{
+    margin: 10px 10px;
+}
+
+.logo{
+    /* font-family: Futura, "Trebuchet MS", Arial, sans-serif; */
+    font-family: 'BenchNine', sans-serif;
+    font-size: 30pt;
+    margin-top: 15px;
+                                                
+}
+
+.space, .toggle, .hamburger{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 35px;
+    padding-top: 40px;
+}
+
+.toggle{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.toggle button{
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'BenchNine', sans-serif;
+    padding: 6px;
+    margin: 3px 0px;
+    font-size: 20px;
+    border: none;
+    color: rgb(215, 236, 255);
+}
+
+.toggle button:hover{
+    background-color:rgb(215, 236, 255);
+    display: block;
+    color:#001244;
+}
+
+.title{
+    padding: 20px;
+    font-size: 18pt;
+    /* align-items: center; */
+    font-family: 'BenchNine', sans-serif;
+}
+
+.left{
+    float:left;
+    width: 22%;
+    padding: 18px 80px 0px  50px;
+    font-family: 'BenchNine', sans-serif;
+    text-align: justify;
+    font-size: 18pt;
+    color: #001244;
+}
+
+.art{
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 74pt;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #9dd1ff;
+}
+
+.under{
+    display: flex;
+}
+.art p{
+    margin: 0;
+}
+.bold{
+    font-size: 86pt;
+    color: #001244;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.cr{
+    font-family: 'BenchNine', sans-serif;
+    padding: 20px;
+    padding-left: 50px;
+}
